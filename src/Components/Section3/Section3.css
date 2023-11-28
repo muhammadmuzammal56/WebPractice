@@ -1,0 +1,92 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: Start;
+    align-items: Start; */
+    height: 70vh;
+    margin-top: 10%;
+
+}
+
+.portfolio span:nth-of-type(1) {
+    color: #242D49;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.portfolio span:nth-of-type(2) {
+    color: #FCA61F;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.portfolio .swiper {
+    overflow: visible !important;
+}
+
+.portfolio-slider {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.portfolio-slider .swiper-slide {
+    width: 20rem;
+}
+
+.portfolio img {
+    width: '419px';
+    height: '222px';
+    border-radius: 19px 19px 0 0;
+}
+.card-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.carddiv1{
+    width: 70%;
+}
+.carddiv1{
+    width: 30%;
+    
+}
+.typoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardbuttontags{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainheading{
+    display: flex;
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .cardBtn-1{
+        width: 2% !important;
+        height: 200% !important;
+    }
+    .cardBtn-1Typo{
+        font-size: 10px !important;
+    }
+    .Section3Card{
+        height: 380px;
+    }
+    .card3buttontags{
+        margin-top: 18px !important;
+    }
+}
+@media (max-width: 1023px){
+    .MainHeading1{
+        font-size: 25px !important;
+    }
+    .Section3Card{
+        max-width: 280px;
+        padding: 2px;
+    }
+}
