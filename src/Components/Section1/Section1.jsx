@@ -13,7 +13,7 @@ const Section1 = () => {
 
     return (
         <Grid container  sx={{ backgroundColor: '#0938AF',  alignItems: 'center', justifyContent: 'center', borderRadius: '30px', marginTop:'15px' }}>
-            <Grid container className="HeadingsContainer" lg={12}  md={12} sm={12}>
+            {/* <Grid container className="HeadingsContainer" lg={12}  md={12} sm={12}>
             <div className="Mainheadingdiv1">
                 <Typography className="mainheading1" sx={{ fontSize: '48px', fontWeight: '700' }} variant="h4" align="center" color="white" >
                     Discover the latest and most
@@ -32,10 +32,30 @@ const Section1 = () => {
                     selection process effortless.
                 </Typography>
                 </div>
+            </Grid> */}
+            <Grid  sx={{marginTop:'3%'}}>
+            <div >
+                <Typography sx={{ fontSize: '48px', fontWeight: '700' }} variant="h4" align="center" color="white" >
+                    Discover the latest and most
+                </Typography>
+                </div>
+                <div >
+                <Typography  sx={{ fontSize: '48px', fontWeight: '700' }} variant="h5" align="center" color="white">
+                    powerful AI resources in one place.
+                </Typography>
+                </div>
+                <div >
+                <Typography  sx={{ fontSize: '24px', fontWeight: '400' }} variant="h5" align="center" color="white">
+                    We curate, review, and AI resources, making your
+                </Typography>
+                <Typography  sx={{ fontSize: '24px', fontWeight: '400' }} variant="h5" align="center" color="white">
+                    selection process effortless.
+                </Typography>
+                </div>
             </Grid>
 
             {/* Second Container with 4 Boxes */}
-            <Grid className="Desc-Container" container spacing={2} sx={{ marginTop: 0, width: '90%' }}>
+            <Grid className="Desc-Container" container spacing={2} sx={{ marginTop: 0, width: '90%',marginBottom:'3%' }}>
                 <Grid item md={6} lg={6}>
                     <Grid
                         container
